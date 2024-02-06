@@ -1,0 +1,28 @@
+decimal number system
+   -> base 10
+binary number system
+   -> base 2
+
+representation 45
+    ->decimal
+        -> 45 = 45*10^1 + 45 * 10^0
+    ->binary 
+        -> 45 = 1*2^5 + 0*2^4 + 1* 2^3 + 0*2^1 + 1*2^0 
+
+
+converision
+    ->decimal to binary
+        ->keep on dividing the number with 2 and take reminder
+        ->continue till quotient becomes 0
+        ->take remainders in reverse order
+
+    ->binary to decimal
+        ->keep multiply the binary with powers of 2
+
+
+
+todo #1
+    ->explore about other number sytems
+
+todo done (#1)
+   ->    
