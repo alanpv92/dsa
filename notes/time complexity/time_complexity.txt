@@ -1,0 +1,6 @@
+-> Time Complexity
+    -> the analayis of an alogrithm which determines how much time will it take to complete a task with respect to input given
+    -> notions
+         -> worst case
+         -> best case
+         -> average case
