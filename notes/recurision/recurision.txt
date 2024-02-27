@@ -1,0 +1,2 @@
+->function calling itselef
+->there should be a base condition to exit else stack overflow will come

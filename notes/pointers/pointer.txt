@@ -1,0 +1,27 @@
+-> pointers can be used to store memory address of a varible
+->syntax
+    -> type* <name>;
+    ->eg int* p;
+->can use & operator to get address of a varible and assign to pointer    
+-> can use * with pointer varible to deference pointer
+-> generic pointer type- void *p  
+
+->dynamic memory allocation
+     ->malloc
+         ->syntax
+          ->int *array=(int*) malloc(n* sizeof(int));
+          ->values will set with garbage value
+     ->calloc
+          ->syntax
+            ->int *array = (int *)calloc(n, sizeof(int));
+            ->default values will be there
+     ->realloc
+           ->syntax
+              ->(int*) realloc(array,n*sizeof(int));
+              ->changes array size   
+ -> function pointer
+     ->syntax
+         ->return type (*<name>)([arguments])=function
+
+  todo
+  -> learn about v table                        
